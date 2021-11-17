@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: O;
+    padding: O;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, p{
+    color: white
+}
+
+body {
+    background-color:#282a2e
+}
+
+ul {
+    list-style-type: none;
+    color: white
+}
+
+section.main ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header nav .profilepic img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 5px solid #3b3d4e93;
+    cursor: pointer;
+}
+
+section.main ul li a {
+    color: #a6a8b8;
+    display: flex;
+    text-decoration: none;
+    margin: 20px 5px;
+    font-size: 25px;
+    padding: 5px;
+    transition: 0.2s all;
+}
+
+section.main ul li a:hover {
+    transition: 0.2s all;
+    color: #fff;
+}
+
+section.main span {
+    color: #fffffe;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 70vh;
+    animation: fadeInUp .8s;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 150px, 0)
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+img{
+    border-radius: 50%;
+}
